@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>App Flex</h1>
+        <img src="img/neutro.png" alt="mostrador" id="status">
+        <form onsubmit="calcular(event)">
+            <input type="number" step="any" id="txtEtanol" placeholder="Etanol" required>
+            <input type="number" step="any" id="txtGasolina" placeholder="Gasolina" required>
+            <button>Vantagem</button>
+            <input type="reset" value="Limpar" onclick="limpar()">
+        </form>
+    <script src="app.js"></script>
+</body>
+</html>
