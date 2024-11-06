@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validação de maioridade</title>
+</head>
+<body>
+    <h1>Validação de maioridade</h1>
+    <form onsubmit="validar(event)"> <!-- a captura de dados será enviada para o arquivo JS -->
+        <input type="text" name="" id="nome" placeholder="Nome" required>
+        <br>
+        <input type="number" id="idade" placeholder="Idade" required>
+        <button>Validar</button>
+        <p>
+            <input type="text" id="aluno" readonly> <!-- caixa de texto vazia que vai receber os dados do primeiro input -->
+            <input type="text" id="status" readonly>
+        </p>
+        <button type="reset">Limpar</button>
+
+    </form>
+
+    <script src="app.js"></script>
+</body>
+</html>

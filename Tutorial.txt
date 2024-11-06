@@ -1,0 +1,50 @@
+GIT e GITHUB
+
+Comandos básicos do git:
+
+git config --global user.name "Seu nome"
+git config --global user.email "seuemail@email.com"
+git clone url_do_repositório
+git status (verificar o status do repositório local)
+git add . (adiciona ao repositório local)
+git commit -m "Atualização" (Documentar as alterações)
+git push (Enviar ao repositório GitHub)
+git pull (Sincroniza as informações do repositório - recebe atualizações feitas fora da pasta local no PC)
+ 
+---
+
+W3C é quem regulamenta e padroniza o HTML e o CSS
+
+Mandamentos da programação
+
+1) UX (User eXperience) - Desenvolver sempre pensando na experiência do usuário
+
+2) Usar o mínimo possível de código (variáveis, operadores, comparadores, estruturas de controle, etc) para resolver o problema
+
+3) Entender o problema - Não adianta sentar na frente do PC se você não sabe como resolver o problema
+
+---
+
+Ligando o HTML no js
+<script scr=""></script>
+
+Boas práticas para nomes de arquivos JS ligados no HTML script.js (relacionado ao desenvolvimento front-end)
+app.js (relacionado ao desenvolvimento de apps ou back-end)
+main.js (relacionado ao desenvolvimento de sistemas desktop)
+index.js (relacionado ao desenvolvimento back-end)
+
+---
+
+DOM - Document Object Model (Modelo de objeto de documentos)
+
+- É uma forma do JS interagir com as tags HTML - transformar as tags em objetos
+- Usamos um ID para identificar no JS as tags
+
+Exemplo:
+let nome = document.getElementById('nome').value // Procura o ID 'nome' no documento HTML para executar o código JS
+
+A variável nome vai receber um valor do elemento identificado como 'nome' / como o readline-sync e o input.question no Node.js
+
+.value -> Pode ser usado para entrada ou saída de dados
+document.getElementById (rótulo) -> identificar a tag no JS
+
